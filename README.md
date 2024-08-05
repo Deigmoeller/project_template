@@ -13,7 +13,7 @@ BSD-3 license.
 - `LICENSE`: The BSD-3 license file.
 - `pyproject.toml`: Project metadata and dependencies managed by Poetry.
 - `README.md`: Information about the project and setup instructions.
-- `.idea/`: Contains a PyCharm configuration file misc.xml that enables black.
+- `.idea/`: Contains a PyCharm configuration files that enables black.
 
 ## Installation
 
@@ -29,7 +29,7 @@ BSD-3 license.
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/project_template.git
+git clone https://github.com/Deigmoeller/project_template.git
 cd project_template
 python -m venv venv
 # Activate the virtual environment
@@ -52,7 +52,7 @@ Format your code automatically using:
 black .
 ```
 
-If you use PyCharm, there is already a configuration file in .idea/misc.xlm that enables black if your IDE. 
+If you use PyCharm as IDE, there are already configuration files in .idea/ that enables black. 
 
 ### Usage
 

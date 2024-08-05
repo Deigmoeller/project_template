@@ -53,7 +53,7 @@ black .
 ```
 
 If you use PyCharm as IDE, there are already configuration files in .idea/ that enables black. As changes in your 
-.idea/workspace.xml and .idea/misc.xml file will be visible using "git status", you should disable te tracking of 
+.idea/workspace.xml and .idea/misc.xml file will be visible using "git status", you should disable tracking of 
 these files: 
 ```bash
 git update-index --assume-unchanged .idea/misc.xml .idea/workspace.xml

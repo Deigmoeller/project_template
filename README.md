@@ -76,9 +76,6 @@ Execute tests using:
 pytest tests/test_template.py
 ```
 
-### Contributing
-
-Contributions to this project are welcome. Please ensure that all contributions adhere to the BSD-3 License guidelines.
-License
+### License
 
 This project is licensed under the BSD-3 License - see the LICENSE file for details.

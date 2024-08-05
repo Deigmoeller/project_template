@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "project_template"
+version = "0.1.0"
+description = "This is a template for python projects"
+authors = ["Joerg Deigmoeller <joerg.deigmoeller@honda-ri.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytest = "8.3.2"
+black = "24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
